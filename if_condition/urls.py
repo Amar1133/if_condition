@@ -20,5 +20,6 @@ from if_cond.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('chandu/',amar,name='chandu'),
+    path('mridul/',mridul,name='mridul'),
+    path('amar/',amar,name='amar'),
 ]
